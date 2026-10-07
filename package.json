@@ -1,0 +1,27 @@
+{
+  "name": "conty-bots-visualizacao",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Classificador explicável de séries horárias de views: alcance orgânico versus padrão suspeito.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch src/api/index.ts",
+    "start": "tsx src/api/index.ts",
+    "generate": "tsx src/dataset/escrever.ts",
+    "avaliar": "tsx src/avaliar.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
