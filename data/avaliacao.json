@@ -1,0 +1,122 @@
+{
+  "seed": 42,
+  "total": 134,
+  "legitimos": 98,
+  "suspeitos": 36,
+  "matriz": [
+    {
+      "rotulo": "legitimo",
+      "legitimo": 80,
+      "suspeito": 0,
+      "inconclusivo": 18
+    },
+    {
+      "rotulo": "suspeito",
+      "legitimo": 0,
+      "suspeito": 36,
+      "inconclusivo": 0
+    }
+  ],
+  "falsos_positivos": 0,
+  "falsos_negativos": 0,
+  "suspeitos_sem_acusacao": 0,
+  "taxa_falso_positivo": 0,
+  "por_cenario": [
+    {
+      "cenario": "ciclo_diario",
+      "rotulo": "legitimo",
+      "total": 16,
+      "legitimo": 16,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "serie_estavel",
+      "rotulo": "legitimo",
+      "total": 10,
+      "legitimo": 10,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "crescimento_organico",
+      "rotulo": "legitimo",
+      "total": 8,
+      "legitimo": 8,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "declinio_organico",
+      "rotulo": "legitimo",
+      "total": 8,
+      "legitimo": 8,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "pico_organico",
+      "rotulo": "legitimo",
+      "total": 20,
+      "legitimo": 20,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "pico_organico_rapido",
+      "rotulo": "legitimo",
+      "total": 10,
+      "legitimo": 10,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "dois_picos_organicos",
+      "rotulo": "legitimo",
+      "total": 8,
+      "legitimo": 8,
+      "suspeito": 0,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "ignicao_rapida",
+      "rotulo": "legitimo",
+      "total": 10,
+      "legitimo": 0,
+      "suspeito": 0,
+      "inconclusivo": 10
+    },
+    {
+      "cenario": "flash_uma_hora",
+      "rotulo": "legitimo",
+      "total": 8,
+      "legitimo": 0,
+      "suspeito": 0,
+      "inconclusivo": 8
+    },
+    {
+      "cenario": "pico_comprado",
+      "rotulo": "suspeito",
+      "total": 16,
+      "legitimo": 0,
+      "suspeito": 16,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "plato_longo",
+      "rotulo": "suspeito",
+      "total": 8,
+      "legitimo": 0,
+      "suspeito": 8,
+      "inconclusivo": 0
+    },
+    {
+      "cenario": "repeticao_mecanica",
+      "rotulo": "suspeito",
+      "total": 12,
+      "legitimo": 0,
+      "suspeito": 12,
+      "inconclusivo": 0
+    }
+  ]
+}
